@@ -284,9 +284,6 @@ def fill_matrix_pairs(ix, iy, res, ixPaired, iyAbsPaired, iyPresPaired):
     elif ixPaired: # Just ix in a pair.
         return ([res, res, res, res], [ix, iy, ix+1, iy], [iy, ix, iy, ix+1])
         
-    elif iyPresPaired:  # Just iy in a pair.
-        return ([res, res, res, res], [ix, iy, ix, iy+1], [iy, ix, iy+1, ix])
-        
     else: # No pairs.
         return ([res, res], [ix, iy], [iy, ix])
         
