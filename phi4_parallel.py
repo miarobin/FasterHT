@@ -367,7 +367,7 @@ def populate(ix, state):
 
             # --- --- --- --- --- --- --- --- --- --- --- --- --
             # -- 1. Remove two states and add two states back --
-            # ---- Corresponds to the fifth row of Table 2. ----
+            # ---- Corresponds to the sixth row of Table 2. ----
             # --- --- --- --- --- --- --- --- --- --- --- --- --
             
 
@@ -385,7 +385,7 @@ def populate(ix, state):
 
             # --- --- --- --- --- --- --- --- --- --- --- --- --
             # - 2. Remove two and add back two different states-
-            # ---- Corresponds to the fourth row of Table 2. ---
+            # Corresponds to the fourth and fifth row of Table 2.
             # --- --- --- --- --- --- --- --- --- --- --- --- --
 
             if abs(ll-l)>1: # Note this again avoids double-counting. 
