@@ -1,6 +1,6 @@
 # FasterHT
 
-This code is supplementary to arXiv:2607.XXXX. The code supplied here was used to generate plots in Section 3 of this paper.
+This code is supplementary to [arXiv:2608.13691](https://arxiv.org/abs/2608.13691). The code supplied here was used to generate plots in Section 3 of this paper.
 
 The code implemented here has small structural differences to the algorithms described in the paper, but nonetheless follow similar structure.
 
